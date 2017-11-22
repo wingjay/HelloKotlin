@@ -1,5 +1,7 @@
 package destructuring
 
+import kotlin.properties.Delegates
+
 /**
  * Created by wingjay on 22/11/2017.
  */
@@ -10,6 +12,7 @@ fun main(args: Array<String>) {
 //    tryHashMap()
     tryAutoGenFunction()
 }
+
 
 fun tryAutoGenFunction() {
     // toString(), equals(), hashCode() and copy() will be auto-generated for data-class
